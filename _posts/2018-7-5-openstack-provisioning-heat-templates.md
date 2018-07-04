@@ -27,7 +27,7 @@ source .openrc.sh
   - o-s flavor list -- show potential flavours.
   - o-s image list -- show list of images.
 
-##Infrastructure
+## SINT Infrastructure
 >Portal deployment includes:
   - OS::Neutron::SecurityGroup * 2 -- 1 for tcp 1 for HTTPS
   - OS::Neutron::Subnet -- defines portal subnet
