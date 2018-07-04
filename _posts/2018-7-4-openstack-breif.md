@@ -37,10 +37,7 @@ https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra
   </tbody>
 </table>
 
-
-1
-
-  Required reading
+##  Required reading
   - Ha proxy
   - openstack heat
   - Ansible
