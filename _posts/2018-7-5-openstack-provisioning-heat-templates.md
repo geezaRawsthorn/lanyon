@@ -4,13 +4,14 @@ title: OpenStack with Heat templates
 ---
 ![_config.yml]({{ site.baseurl }}/18343_OpenStack_Vertical_Logo.jpg)
 
-##OpenStack Set up Mac OSX
+## OpenStack Set up Mac OSX
 vi ~/.zshrc
 {% highlight js %}
 // create openstack alias for effient terminal command
 alias o-s="openstack"
-{% endhighlight %}
+// source your bash file
 source ~/.zshrc
+{% endhighlight %}
 
 Download your unique openstack openRc.sh file.
 {% highlight js %}
@@ -21,7 +22,7 @@ source .openrc.sh
 //Provide open stack credentials
 {% endhighlight %}
 
-##OpenStack Commands
+## OpenStack Commands
   - o-s stack list (deployed stacks in your tennancy)
   - o-s flavor list -- show potential flavours.
   - o-s image list -- show list of images.
