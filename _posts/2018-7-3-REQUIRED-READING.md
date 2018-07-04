@@ -9,5 +9,3 @@ title: Required Reading
 </div>
 
 ## Ha Proxy<a href="http://www.haproxy.org/"></a>
-
-http://www.haproxy.org/
