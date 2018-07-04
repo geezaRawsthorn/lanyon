@@ -25,6 +25,7 @@ https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra
   <tbody>
     <tr>
       <td>3 x SINT WebServer nodes
+
         - web server software
         - ryslog
         - other componenets TBC</td>
@@ -37,7 +38,6 @@ https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra
   </tbody>
 </table>
 
-test 
 ##  Required reading
   - Ha proxy
   - openstack heat
