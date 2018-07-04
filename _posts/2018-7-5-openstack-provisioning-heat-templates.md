@@ -4,16 +4,29 @@ title: OpenStack with Heat templates
 ---
 ![_config.yml]({{ site.baseurl }}/18343_OpenStack_Vertical_Logo.jpg)
 
-## <u>OpenStack commands</u>
+##OpenStack Set up Mac OSX
+vi ~/.zshrc
+{% highlight js %}
+// create openstack alias for effient terminal command
+alias o-s="openstack"
+{% endhighlight %}
+source ~/.zshrc
 
-  - openstack stack list (deployed stacks in your tennancy)
-  - openstack flavor list -- show potential flavours.
-  - openstack image list -- show list of images.
+Download your unique openstack openRc.sh file.
+{% highlight js %}
+// mv openrc from downloads to current folder. save as hidden file.
+mv ~/Downloads/{tennancy-name}openrc.sh ./.openrc
+// source the file
+source .openrc.sh
+//Provide open stack credentials
+{% endhighlight %}
 
+##OpenStack Commands
+  - o-s stack list (deployed stacks in your tennancy)
+  - o-s flavor list -- show potential flavours.
+  - o-s image list -- show list of images.
 
-## Tutorials
-https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
-
+##Infrastructure
 >Portal deployment includes:
   - OS::Neutron::SecurityGroup * 2 -- 1 for tcp 1 for HTTPS
   - OS::Neutron::Subnet -- defines portal subnet
@@ -43,3 +56,6 @@ A subnet represents an IP address block that can be used for assigning IP addres
 
 A resource for managing Neutron router interfaces.
 Router interfaces associate routers with existing subnets or ports.
+
+## Tutorials
+https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
