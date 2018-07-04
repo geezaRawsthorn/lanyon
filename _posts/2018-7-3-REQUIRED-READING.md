@@ -7,3 +7,7 @@ title: Required Reading
   This is required reading in understanding, Ha Proxy, Openstack heat templates,
   Ansible, and rsyslog.
 </div>
+
+## Ha Proxy<a href="http://www.haproxy.org/"></a>
+
+http://www.haproxy.org/
