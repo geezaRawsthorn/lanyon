@@ -6,14 +6,14 @@ permalink:           pretty
 
 # Setup
 title:               Guy Rawsthorn
-tagline:             'Blog Powered by Jekyll and Lanyon'
+tagline:             'Blog'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 avatar:              https://geezarawsthorn.github.io/images/GitHubAvatar.png
 url:                 http://lanyon.getpoole.com
 baseurl:             '/lanyon/'
 paginate:            5
 github:
-  url: https://github.com/geezaRawsthorn/lanyon/blob/gh-pages
+  url:               https://github.com/geezaRawsthorn/lanyon/blob/gh-pages
 # About/contact
 author:
   name:              Mark Otto
