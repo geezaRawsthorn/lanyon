@@ -13,11 +13,10 @@ title: Required Reading
 HAProxy - High availability Proxy.
 used to improve performance & reliability of servers by distributing the workload between multiple servers.
 Similar products include Nginx, squid, Varnish.
-<div class"centred">
-![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.57.49.png)
-Simple load balancing. Bases on IP and Port range.
-![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.58.08.png)
-More advanced Load balancing. Based on the content of the user request.
+
 ### High Availability
 ![_config.yml]({{ site.baseurl }}/HA.png)
-</div>
+
+To overcome this issue a high-availability configuration is mostly preferred because it eliminates a single point of failure. By adding redundancy to each layer of your architecture, HA configuration prevents a single server failure point.
+
+## <a href="https://docs.ansible.com/">Ansible</a>
