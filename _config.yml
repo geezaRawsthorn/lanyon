@@ -11,7 +11,8 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 http://lanyon.getpoole.com
 baseurl:             '/lanyon/'
 paginate:            5
-
+github:
+  url: https://github.com/geezaRawsthorn/lanyon/blob/gh-pages
 # About/contact
 author:
   name:              Mark Otto
