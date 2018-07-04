@@ -6,8 +6,8 @@ title: SINT OpenStack Brief
 ## Brief
 
 > - define the infrastructure behind SINT using OpenStack heat templates
-  - define the software configuration for SINT using Ansible
-  - Bring them together running on OpenStack
+>  - define the software configuration for SINT using Ansible
+>  - Bring them together running on OpenStack
 
 ### Git Clone
 
