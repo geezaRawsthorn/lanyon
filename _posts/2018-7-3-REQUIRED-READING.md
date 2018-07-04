@@ -13,10 +13,11 @@ title: Required Reading
 HAProxy - High availability Proxy.
 used to improve performance & reliability of servers by distributing the workload between multiple servers.
 Similar products include Nginx, squid, Varnish.
-
-## Layer 4 load balancing
+<div class"centred">
 ![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.57.49.png)
 Simple load balancing. Bases on IP and Port range.
-## Layer 7 load balancing
 ![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.58.08.png)
 More advanced Load balancing. Based on the content of the user request.
+### High Availability
+![_config.yml]({{ site.baseurl }}/HA.png)
+</div>
