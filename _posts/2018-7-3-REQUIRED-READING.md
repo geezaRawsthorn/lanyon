@@ -16,6 +16,7 @@ Similar products include Nginx, squid, Varnish.
 
 ## Layer 4 load balancing
 ![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.57.49.png)
-
+Simple load balancing. Bases on IP and Port range.
 ## Layer 7 load balancing
 ![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-04 at 14.58.08.png)
+More advanced Load balancing. Based on the content of the user request.
