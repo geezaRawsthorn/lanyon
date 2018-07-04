@@ -36,4 +36,3 @@ https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra
   - openstack heat
   - Ansible
   - rsyslogss
------------------
