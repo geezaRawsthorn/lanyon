@@ -26,6 +26,9 @@ source .openrc.sh
   - o-s stack list (deployed stacks in your tennancy)
   - o-s flavor list -- show potential flavours.
   - o-s image list -- show list of images.
+  - o-s keypair list - show keypairs
+  - o-s stack create -e {name}.yaml
+  - o-s stack delete {stack name}
 
 ## SINT Infrastructure
 >Portal deployment includes:

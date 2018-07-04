@@ -9,27 +9,36 @@ title: SINT OpenStack Brief
 >  - define the software configuration for SINT using Ansible
 >  - Bring them together running on OpenStack
 
-### Git Clone
+## Git Clone
 
 https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra.yaml
 
-### Requirements
+## Requirements
 
 - pip install python-heatclient
 - pip install openstackcli
 
 
-### SINT Deployment
+## SINT Deployment
 
-3 x SINT WebServer nodes
-  - web server software
-  - ryslog
-  - other componenets TBC
-1 x HAProxy node;
-  - rsyslog
-1 x SINT DB
-  - mariaDBs
-  - rsyslog
+<table>
+  <tbody>
+    <tr>
+      <td>3 x SINT WebServer nodes
+        - web server software
+        - ryslog
+        - other componenets TBC</td>
+      <td>1 x HAProxy node;
+        - rsyslog</td>
+      <td> x SINT DB
+        - mariaDBs
+        - rsyslog</td>
+    </tr>
+  </tbody>
+</table>
+
+
+1
 
   Required reading
   - Ha proxy
