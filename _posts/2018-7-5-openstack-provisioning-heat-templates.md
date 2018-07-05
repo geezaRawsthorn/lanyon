@@ -61,5 +61,27 @@ parameters:
    default: m1.small
 {% endhighlight %}
 
+## Template structure
+{% highlight js %}
+heat_template_version: 2016-10-14
+
+description:
+  # a description of the template
+
+parameter_groups:
+  # a declaration of input parameter groups and order
+
+parameters:
+  # declaration of input parameters
+
+resources:
+  # declaration of template resources
+
+outputs:
+  # declaration of output parameters
+
+conditions:
+  # declaration of conditions
+{% endhighlight %}
 ## Tutorials
 https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/
