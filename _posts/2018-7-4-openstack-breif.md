@@ -38,6 +38,13 @@ https://bitbucket.il2management.local/projects/HEAT/repos/trebuchet/browse/infra
   </tbody>
 </table>
 
+## Bonus
+
+> - **I need a medic over here** Use 2 x Ha Proxy nodes w/ keepalived.
+> - **Keep it a secret, keep it safe** - Cluster MariaDb in master/slave configuration.
+> - **Oscar Mike** - COnfigure the Board HA Proxy to proxy connections through to sint HaProxy Host Header ACL.
+
+<cite>You got three weeks. If you fail, I want your badge and your gun on my desk, pronto.</cite> 
 ##  Required reading
   - Ha proxy
   - openstack heat
