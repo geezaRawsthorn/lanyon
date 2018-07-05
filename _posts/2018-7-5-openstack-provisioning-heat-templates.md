@@ -49,17 +49,17 @@ A resource for managing Neutron security groups. Security groups are sets of IP 
 
 ![_config.yml]({{ site.baseurl }}/Screen Shot 2018-07-03 at 16.00.13.png)
 
+## Providing Default values
 
-## OS::Neutron::Subnet
-A resource for managing Neutron subnets.
-
-A subnet represents an IP address block that can be used for assigning IP addresses to virtual instances. Each subnet must have a CIDR and must be associated with a network. IPs can be either selected from the whole subnet CIDR, or from “allocation pools” that can be specified by the user.
-
-
-## OS::Neutron::RouterInterface¶
-
-A resource for managing Neutron router interfaces.
-Router interfaces associate routers with existing subnets or ports.
+You can provide default values for parameters if the parameter is not given.
+{% highlight js %}
+parameters:
+  flavor:
+    type: string
+    label: Instance Type
+    description: Flavor to be used
+   default: m1.small
+{% endhighlight %}
 
 ## Tutorials
 https://www.stratoscale.com/blog/openstack/best-practices-openstack-heat-templates/

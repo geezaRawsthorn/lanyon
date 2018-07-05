@@ -44,7 +44,7 @@ title: SINT OpenStack Brief
 > - **Keep it a secret, keep it safe** - Cluster MariaDb in master/slave configuration.
 > - **Oscar Mike** - COnfigure the Board HA Proxy to proxy connections through to sint HaProxy Host Header ACL.
 >
-><cite>You got three weeks. If you fail, I want your badge and your gun on my desk, >pronto.</cite>
+><cite>You got three weeks. If you fail, I want your badge and your gun on my desk, pronto.</cite>
 > ##  Required reading
 >  - Ha proxy
 >  - openstack heat

@@ -20,3 +20,7 @@ Similar products include Nginx, squid, Varnish.
 To overcome this issue a high-availability configuration is mostly preferred because it eliminates a single point of failure. By adding redundancy to each layer of your architecture, HA configuration prevents a single server failure point.
 
 ## <a href="https://docs.ansible.com/">Ansible</a>
+
+Ansible is a simple and powerful automation engine. It is used to help with configuration management, application deployment, and task automation.
+
+<cite>Maybe spin up a box in openstack and fire ansible at it?</cite>
