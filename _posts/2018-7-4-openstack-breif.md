@@ -1,12 +1,12 @@
 ---
 layout: post
-title: SINT OpenStack Brief
+title: CMDB OpenStack Brief
 ---
 
 > ## Brief
 >
-> - define the infrastructure behind SINT using OpenStack heat templates
->  - define the software configuration for SINT using Ansible
+> - define the infrastructure behind CMDB using OpenStack heat templates
+>  - define the software configuration for CMDB using Ansible
 >  - Bring them together running on OpenStack
 >
 > ### Git Clone
@@ -19,19 +19,19 @@ title: SINT OpenStack Brief
 > - pip install openstackcli
 >
 >
->## SINT Deployment
+>## CMDB Deployment
 >
 ><table>
 >  <tbody>
 >    <tr>
->      <td>3 x SINT WebServer nodes
+>      <td>3 x CMDB WebServer nodes
 >
 >        - web server software
 >        - ryslog
 >        - other componenets TBC</td>
 >      <td>1 x HAProxy node;
 >        - rsyslog</td>
->      <td> x SINT DB
+>      <td> x CMDB DB
 >        - mariaDBs
 >        - rsyslog</td>
 >    </tr>
@@ -42,7 +42,7 @@ title: SINT OpenStack Brief
 >
 > - **I need a medic over here** Use 2 x Ha Proxy nodes w/ keepalived.
 > - **Keep it a secret, keep it safe** - Cluster MariaDb in master/slave configuration.
-> - **Oscar Mike** - COnfigure the Board HA Proxy to proxy connections through to sint HaProxy Host Header ACL.
+> - **Oscar Mike** - COnfigure the Board HA Proxy to proxy connections through to CMDB HaProxy Host Header ACL.
 >
 ><cite>You got three weeks. If you fail, I want your badge and your gun on my desk, pronto.</cite>
 > ##  Required reading
